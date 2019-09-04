@@ -1,0 +1,5 @@
+All code is in the run.py file. To run the code, simply do "python run.py"
+
+The script takes no arguments, to modify its behavior, go to the main function and uncomment the functions you wish to run. Further instructions can be found in the main function.
+
+The script determines which folders to analyze based off of what folders are in the results directory. If you wish to analyze or modify only part of the file system, such as a single CDI_STORE_# directory, remove all other folders from the results directory. Information for each analyzed directory is saved in the coresponding folder in the results directory. Running the script again overwrites previous data, so be sure to back up data elsewhere if you wish to view previous results.
